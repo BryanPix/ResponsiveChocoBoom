@@ -90,4 +90,21 @@ nav > a, p {
 p {
   padding: 2rem;
   text-align: left;
+}
+
+@media (max-width: 961px) {
+  section, aside {
+    width: 100%;
+  }
+  nav {
+    text-align: justify;
+  }
+}
+@media (max-width: 560px) {
+  nav {
+    flex-flow: column;
+  }
+  aside {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
